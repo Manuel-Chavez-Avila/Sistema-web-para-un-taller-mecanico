@@ -1,0 +1,127 @@
+* { /*Selector Universal: Significa que seleccionará todos los elementos dentro de esa porción del DOM(Document Object Model), y deberán aplicarse los estilos asignados a toda la página.*/
+	margin: 0;
+	padding:0;
+	border: 0;
+}
+
+header {
+	font-family: Verdana;
+	color: #59030b;
+	text-align: center;
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: bold;
+	text-shadow: 2px 2px 8px #59030b;
+}
+
+section{
+	font-family: verdana;
+	font-size: 14px;
+	color: #000;
+	text-align: justify;
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px;
+}
+
+article{
+	font-family: Arial;
+	font-size: 16px;
+	color: #000;
+	text-align: justify;
+	 
+}
+
+aside{
+	font-family: Arial;
+	font-size: 16px;
+	color: #000;
+	text-align: justify;
+	width: 18%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px;
+}
+
+footer{
+	font-family: Verdana;
+	font-size: 14px;
+	color: #000;
+	text-align: center;
+}
+
+header,section,article,aside,footer{
+	margin: 10px;
+	border: 1px solid rgb(158,158,158);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	background-color: #bcbcbc;
+}
+
+header h1{
+	font-family: Verdana;
+	color: #0f084d;
+	text-align: center;
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: bold;
+	text-shadow: 2px 2px 8px #5a6773;
+	padding: 12px;
+}
+
+ul{
+	margin-left: 20px;
+}
+
+article h2{
+	font-size: 20px;
+	color: #000000;
+	text-shadow: 0px 0px black;
+}
+
+aside h3{
+	font-family: Arial;
+	font-size: 16px;
+	color: #f64111;
+	text-align: center;
+}
+
+a:hover{
+	font-size: 12px;
+	color: #ff4d4d;
+}
+
+body{
+	background-image: url(../imagen/fondo.png);
+	background-size: 240px 240px;
+	background-position: center;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+.myDiv{
+    width: 95%;
+}
+
+.centrarimagen{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 12px;
+}
+
+/*Estilos para la tabla	*/
+
+table, th, tr, td{
+	border: 1px inset;
+	font-family: Tahoma;
+	font-size: 15px;
+	text-align: center;
+}
+
+caption{color: #E5D124; letter-spacing: 5px;}
+thead {color: red;}
+tbody {color: green;}
+tfoot {color: blue;}
